@@ -1,10 +1,5 @@
 def solution(money):
     answer = 0
-    #점화식
-    #dp[0] = array[0]
-    #dp[1] = array[1]
-    # i >= 2 인 경우
-    #dp[i] = max(dp[i - 1], dp[i - 2] + array[i])
 
     dp_one = [0] * (len(money) - 1)
     dp_other = [0] * (len(money) - 1)
