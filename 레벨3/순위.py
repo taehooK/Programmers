@@ -6,7 +6,6 @@ def dfs(graph, visited, index):
             count += dfs(graph, visited, opponent)
             count += 1
     return count
-
 def solution(n, results):
     answer = 0
 
